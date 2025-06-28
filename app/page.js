@@ -19,21 +19,21 @@ export default function LandingPage() {
         <div className="flex flex-wrap justify-center gap-4">
           <button
             onClick={() => router.push('/login')}
-            className="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full transition shadow-md"
+            className="bg-green-500 cursor-pointer hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full transition shadow-md"
           >
             Masuk sebagai Juri
           </button>
 
           <button
             onClick={() => router.push('/dashboard')}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full transition shadow-md"
+            className="bg-blue-500 cursor-pointer hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full transition shadow-md"
           >
             Lihat Rekap Nilai
           </button>
 
           <button
             onClick={() => router.push('/login')}
-            className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded-full transition shadow-md"
+            className="bg-yellow-500 cursor-pointer hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded-full transition shadow-md"
           >
             Admin Panel
           </button>
