@@ -32,7 +32,7 @@ export default function LandingPage() {
           </button>
 
           <button
-            onClick={() => router.push('/admin')}
+            onClick={() => router.push('/login')}
             className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded-full transition shadow-md"
           >
             Admin Panel
